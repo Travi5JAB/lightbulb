@@ -1,36 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 html{
     background-color: #0000b3
 }
@@ -38,37 +5,66 @@ button{
     height:112px;
     width:50px;
     background: url(./light-off-copy.jpg);
+
 }
 
 #lightbulbdiv{
-    height: 200px;
+    height: 210px;
     width: 150px;
     background-color: grey;
     border-color: black;
     border-style: solid;
-    margin-left: 20px;
-    border-radius: 50% 50% 25% 25%
+    margin-left: 150px;
+    border-radius: 60% 60% 25% 25%;
 }
 #lightbulbbase{
     height:100px;
     width:100px;
-    padding: 5px;
-    margin-left: 45px;
-    background-color: grey;
-
+    margin-left: 172px;
+    background-color: #585858;;
+    border-color: black;
+    border-style: solid;
 }
 #buffer{
-    padding: 10px;
+    padding-top: 0px;
 }
 body{
     border-style: solid;
     border-color: black;
     align-items: center;
     text-align: center;
-
+    padding-bottom: 500px;
 }
-img{
-    width: 100px;
-    height:125px;
+#backUp{
+    z-index: -5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#wholebulb{
+    margin-top: 150px;
+    z-index: 1;
+}
+#bulbandglow{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#outerglow{
+    height:440px;
+    width:400px;
+    margin-left: 35px;
     position: absolute;
+    z-index: 0;
+    opacity: .4;
+    border-radius: 50%;
+}
+#divCont{
+    height:340px;
+    width:300px;
+    margin-top: 80px;
+    margin-left: 75px;
+    position: absolute;
+    z-index: 0;
+    opacity: .65;
+    border-radius: 50%;
 }
